@@ -68,39 +68,50 @@
     },
     {
       "id": "US-007",
-      "description": "Marketing: Multi-channel launch strategy",
+      "description": "Product F: AI Agent Mastermind (Viral)",
       "acceptanceCriteria": [
-        "Twitter/X presence and content plan",
-        "Reddit engagement strategy (3+ subreddits)",
-        "HackerNews posting strategy",
-        "Newsletter outreach list (20+)"
+        "Founding member urgency (limited spots)",
+        "High-ticket pricing ($497 founding)",
+        "Community-focused (not course)",
+        "FOMO elements (price increases, closes)"
       ],
       "passes": true
     },
     {
       "id": "US-008",
-      "description": "Marketing: SEO content machine",
+      "description": "Product G: 30-Day AI Agent Challenge",
       "acceptanceCriteria": [
-        "10 SEO blog posts targeting dev keywords",
-        "Internal linking structure",
-        "Content calendar for 3 months",
-        "Backlink strategy"
+        "Intensive challenge format",
+        "Accountability community",
+        "Clear 30-day milestones",
+        "$97 price point"
       ],
       "passes": true
     },
     {
       "id": "US-009",
-      "description": "Marketing: YouTube short-form content",
+      "description": "Product H: $100K Developer Masterclass",
       "acceptanceCriteria": [
-        "10 video scripts for AI agents topic",
-        "Thumbnail templates",
-        "Title and description templates",
-        "Publishing schedule"
+        "Personal brand / mindset angle",
+        "Case study of transformation",
+        "High-ticket ($197)",
+        "Story-driven marketing"
       ],
       "passes": true
     },
     {
       "id": "US-010",
+      "description": "Product I: Secret Arsenal (20 Agents)",
+      "acceptanceCriteria": [
+        "Done-for-you agents",
+        "Proven money-makers",
+        "Package deal urgency ($297 first 100)",
+        "$297 price point"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-011",
       "description": "Revenue tracking system",
       "acceptanceCriteria": [
         "Sales dashboard (Google Sheets or Notion)",
