@@ -55,7 +55,7 @@
         "Code pushed to main branch",
         "README displays correctly on GitHub"
       ],
-      "passes": false
+      "passes": true
     }
   ]
 }
