@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevForge AI Toolkit - AI-Powered Developer Productivity Suite</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 0; text-align: center; }
+        header h1 { font-size: 3rem; margin-bottom: 1rem; }
+        header p { font-size: 1.25rem; opacity: 0.9; }
+        .hero { padding: 40px 0; background: #f8f9fa; }
+        .badges { display: flex; justify-content: center; gap: 20px; margin-top: 20px; }
+        .badges span { background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; }
+        .features { padding: 60px 0; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .feature-card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .feature-card h3 { color: #667eea; margin-bottom: 15px; }
+        .templates { padding: 60px 0; background: #f8f9fa; }
+        .template-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 40px; }
+        .template-card { background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #667eea; }
+        .template-card h4 { margin-bottom: 10px; color: #333; }
+        .template-card p { color: #666; font-size: 0.9rem; }
+        .pricing { padding: 60px 0; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
+        .price-card { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        .price-card.featured { border: 2px solid #667eea; transform: scale(1.05); }
+        .price-card h3 { font-size: 1.5rem; margin-bottom: 20px; }
+        .price { font-size: 3rem; font-weight: bold; color: #667eea; }
+        .price span { font-size: 1rem; color: #666; }
+        .features-list { text-align: left; margin: 20px 0; }
+        .features-list li { margin: 10px 0; padding-left: 25px; position: relative; }
+        .features-list li:before { content: "✓"; position: absolute; left: 0; color: #667eea; }
+        .btn { display: inline-block; background: #667eea; color: white; padding: 15px 40px; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: transform 0.2s; }
+        .btn:hover { transform: scale(1.05); }
+        .btn-outline { background: white; color: #667eea; border: 2px solid #667eea; }
+        .payment-section { padding: 60px 0; background: #333; color: white; }
+        .payment-section h2 { text-align: center; margin-bottom: 40px; }
+        .crypto-payment { max-width: 500px; margin: 0 auto; background: #1a1a1a; padding: 30px; border-radius: 10px; text-align: center; }
+        .crypto-address { background: #2a2a2a; padding: 15px; border-radius: 5px; font-family: monospace; word-break: break-all; margin: 20px 0; font-size: 0.85rem; }
+        .eth-logo { width: 40px; height: 40px; }
+        footer { background: #1a1a1a; color: #666; text-align: center; padding: 40px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DevForge AI Toolkit</h1>
+            <p>AI-Powered Developer Productivity Suite</p>
+            <div class="badges">
+                <span>20+ Templates</span>
+                <span>5 Premium Plugins</span>
+                <span>3 AI Assistants</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 style="text-align:center;margin-bottom:20px;">Transform Your Development Workflow</h2>
+            <p style="text-align:center;max-width:700px;margin:0 auto;">
+                A curated collection of AI assistant plugins and workflow templates that supercharge your productivity.
+                Generate code, write tests, setup infrastructure, and more - all with a single command.
+            </p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align:center;">What's Included</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Code Generation</h3>
+                    <p>REST APIs, GraphQL, CRUD operations, database schemas - generate production-ready code in seconds.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Testing Suite</h3>
+                    <p>Unit tests, integration tests, E2E tests, and performance benchmarks with >80% coverage guaranteed.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>DevOps Automation</h3>
+                    <p>CI/CD pipelines, Docker configs, Kubernetes manifests, and monitoring setup in minutes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Security Scanning</h3>
+                    <p>Authentication systems, encryption utilities, and vulnerability scanning following OWASP standards.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Code Refactoring</h3>
+                    <p>Clean code transformations, design pattern applications, and database migration scripts.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Documentation</h3>
+                    <p>API docs, README files, and changelogs - maintain comprehensive project documentation effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="templates">
+        <div class="container">
+            <h2 style="text-align:center;">21 Workflow Templates</h2>
+            <div class="template-grid">
+                <div class="template-card">
+                    <h4>REST API Generator</h4>
+                    <p>Production-ready REST APIs with validation, error handling, and docs</p>
+                </div>
+                <div class="template-card">
+                    <h4>GraphQL API Generator</h4>
+                    <p>Type-safe GraphQL APIs with Apollo Server and Prisma</p>
+                </div>
+                <div class="template-card">
+                    <h4>CRUD Generator</h4>
+                    <p>Complete CRUD operations with batch support and audit logging</p>
+                </div>
+                <div class="template-card">
+                    <h4>Database Schema Generator</h4>
+                    <p>Normalized schemas with migrations for PostgreSQL, MySQL, MongoDB</p>
+                </div>
+                <div class="template-card">
+                    <h4>Unit Test Generator</h4>
+                    <p>Comprehensive unit tests with Jest/Vitest and >80% coverage</p>
+                </div>
+                <div class="template-card">
+                    <h4>E2E Test Generator</h4>
+                    <p>Playwright/Cypress tests with page object models</p>
+                </div>
+                <div class="template-card">
+                    <h4>CI/CD Pipeline Generator</h4>
+                    <p>GitHub Actions/GitLab CI with test automation</p>
+                </div>
+                <div class="template-card">
+                    <h4>Docker Generator</h4>
+                    <p>Multi-stage Dockerfiles with optimization and security scanning</p>
+                </div>
+                <div class="template-card">
+                    <h4>Kubernetes Generator</h4>
+                    <p>Deployments, services, HPA, and Helm charts</p>
+                </div>
+                <div class="template-card">
+                    <h4>Auth System Generator</h4>
+                    <p>JWT auth, OAuth 2.0, password hashing, MFA support</p>
+                </div>
+                <div class="template-card">
+                    <h4>Security Vulnerability Scanner</h4>
+                    <p>SAST, dependency scanning, OWASP Top 10 compliance</p>
+                </div>
+                <div class="template-card">
+                    <h4>+ 11 More Templates</h4>
+                    <p>Performance testing, monitoring, clean code, API docs, and more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h2 style="text-align:center;">Simple, Transparent Pricing</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Starter</h3>
+                    <div class="price">$99<span>/one-time</span></div>
+                    <ul class="features-list">
+                        <li>10 workflow templates</li>
+                        <li>3 premium plugins</li>
+                        <li>Claude Code compatible</li>
+                        <li>Documentation access</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" onclick="handlePurchase('starter')">Get Started</a>
+                </div>
+                <div class="price-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$199<span>/one-time</span></div>
+                    <ul class="features-list">
+                        <li>All 21 templates</li>
+                        <li>All 5 plugins</li>
+                        <li>3 AI assistants</li>
+                        <li>Priority support</li>
+                        <li>Future updates included</li>
+                    </ul>
+                    <a href="#" class="btn" onclick="handlePurchase('pro')">Get Pro</a>
+                </div>
+                <div class="price-card">
+                    <h3>Team</h3>
+                    <div class="price">$299<span>/one-time</span></div>
+                    <ul class="features-list">
+                        <li>Everything in Pro</li>
+                        <li>Team license (5 seats)</li>
+                        <li>Custom templates</li>
+                        <li>Dedicated support</li>
+                        <li>Onboarding session</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" onclick="handlePurchase('team')">Get Team License</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment-section">
+        <div class="container">
+            <h2>Cryptocurrency Payment</h2>
+            <div class="crypto-payment">
+                <svg class="eth-logo" viewBox="0 0 256 417" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#627EEA" d="M127.961 0l-2.795 9.5v275.668l2.795 2.79 127.962-75.638z"/>
+                    <path fill="#627EEA" d="M127.962 0L0 212.32l127.962 75.639V154.158z"/>
+                    <path fill="#FFF" fill-opacity=".602" d="M127.961 312.187l-1.575 1.92v98.199l1.575 4.601 128.038-180.32z"/>
+                    <path fill="#FFF" fill-opacity=".602" d="M127.962 416.905V312.186L0 236.587z"/>
+                </svg>
+                <h3>Pay with Ethereum</h3>
+                <p>Send ETH or USDC to the address below</p>
+                <div class="crypto-address">0xE177d26d1796bBD0a45Bb65dCb494a4def6957c3</div>
+                <p style="font-size:0.85rem;color:#888;">After payment, email your receipt to payments@devforge.ai with your template requests</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>DevForge AI Toolkit &copy; 2026. All rights reserved.</p>
+            <p style="margin-top:10px;">
+                <a href="https://github.com/shuangxipop1/devforge-ai-toolkit" style="color:#667eea;">GitHub</a> |
+                <a href="#" style="color:#667eea;">Documentation</a> |
+                <a href="#" style="color:#667eea;">Support</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function handlePurchase(tier) {
+            const tierData = {
+                starter: { amount: 9900, name: 'DevForge Starter' },
+                pro: { amount: 19900, name: 'DevForge Pro' },
+                team: { amount: 29900, name: 'DevForge Team' }
+            };
+            // Stripe checkout would be integrated here
+            alert(`Thank you for your interest in ${tierData[tier].name}!\n\nFor now, pay via:\n1. Ethereum: 0xE177d26d1796bBD0a45Bb65dCb494a4def6957c3\n2. Or email payments@devforge.ai for wire transfer\n\nReference: ${tier.toUpperCase()}`);
+        }
+    </script>
+</body>
+</html>

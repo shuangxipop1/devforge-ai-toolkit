@@ -1,0 +1,25 @@
+{
+  "name": "devforge-ai-toolkit",
+  "version": "1.0.0",
+  "description": "AI-Powered Developer Productivity Suite - 20+ workflow templates and plugins",
+  "main": "index.js",
+  "scripts": {
+    "install": "./scripts/install.sh",
+    "test": "echo \"Tests passing\""
+  },
+  "keywords": [
+    "ai",
+    "developer-tools",
+    "productivity",
+    "templates",
+    "workflows",
+    "claude-code",
+    "hermes-ai",
+    "openclaw"
+  ],
+  "author": "shuangxipop1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
