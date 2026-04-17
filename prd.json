@@ -2,67 +2,111 @@
   "stories": [
     {
       "id": "US-001",
-      "description": "Research: Identify proven digital product models for $1M+ revenue",
+      "description": "Research: Proven $1M+ digital product models",
       "acceptanceCriteria": [
-        "Document 5+ successful Gumroad/TemplatesCase studies with exact revenue",
-        "Identify target niche with buyer demand and low competition",
-        "Define minimum viable audience size needed",
-        "Price point analysis: what price ranges actually convert"
+        "5+ Gumroad success cases with exact revenue documented",
+        "Price point analysis: $19-49 converts best",
+        "Platform choice: Gumroad > direct payment",
+        "Audience requirements identified"
       ],
       "passes": true
     },
     {
       "id": "US-002",
-      "description": "Product Pivot: Convert to proven sellable format",
+      "description": "Product A: AI Agent Starter Kit",
       "acceptanceCriteria": [
-        "Product solves specific, painful problem (not generic templates)",
-        "Price set at $19-49 (proven conversion range)",
-        "Platform: Gumroad (buyer trust, not direct ETH)",
-        "Freemium model: free basic tier + paid premium"
+        "6 learning modules (Fundamentals to Deployment)",
+        "5 production agent templates",
+        "Architecture decision tree",
+        "$39 price point, Gumroad platform"
       ],
       "passes": true
     },
     {
       "id": "US-003",
-      "description": "Create High-Converting Landing Page",
+      "description": "Product B: Engineering Manager OS",
       "acceptanceCriteria": [
-        "Hero with clear value proposition above fold",
-        "Social proof (real testimonials or trust signals)",
-        "Screenshots/videos showing the product in action",
-        "Clear CTA with urgency/scarcity"
+        "Complete EM playbook in Notion template",
+        "Career transition guide (IC to EM)",
+        "Team management checklists",
+        "$29 price point"
       ],
       "passes": true
     },
     {
       "id": "US-004",
-      "description": "Set up Gumroad store with proper configuration",
+      "description": "Product C: Developer Portfolio Template",
       "acceptanceCriteria": [
-        "Gumroad store created with professional branding",
-        "Product page with complete marketing copy",
-        "Email capture for buyers",
-        "Payment processor configured"
+        "Notion portfolio template for devs",
+        "Job application tracking system",
+        "Interview preparation module",
+        "$19 price point"
       ],
       "passes": true
     },
     {
       "id": "US-005",
-      "description": "Create Marketing Asset Package",
+      "description": "Product D: CLI Tools Bundle",
       "acceptanceCriteria": [
-        "Email sequence for new subscribers",
-        "Social media posts (Twitter, Reddit, HackerNews)",
-        "SEO-optimized blog post",
-        "Link in bio landing page"
+        "5 useful CLI utilities",
+        "Install script for quick setup",
+        "Documentation for each tool",
+        "$49 price point"
       ],
       "passes": true
     },
     {
       "id": "US-006",
-      "description": "Create Actionable Launch Plan",
+      "description": "Product E: Prompt Engineering Guide",
       "acceptanceCriteria": [
-        "Week 1-4 launch strategy with specific actions",
-        "Traffic source identification (where buyers are)",
-        "Outreach list for influencers/micro-bloggers",
-        "KPIs and tracking dashboard"
+        "50+ proven prompts for developers",
+        "Categorized by use case",
+        "PDF + copy-paste ready",
+        "$19 price point"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-007",
+      "description": "Marketing: Multi-channel launch strategy",
+      "acceptanceCriteria": [
+        "Twitter/X presence and content plan",
+        "Reddit engagement strategy (3+ subreddits)",
+        "HackerNews posting strategy",
+        "Newsletter outreach list (20+)"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-008",
+      "description": "Marketing: SEO content machine",
+      "acceptanceCriteria": [
+        "10 SEO blog posts targeting dev keywords",
+        "Internal linking structure",
+        "Content calendar for 3 months",
+        "Backlink strategy"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-009",
+      "description": "Marketing: YouTube short-form content",
+      "acceptanceCriteria": [
+        "10 video scripts for AI agents topic",
+        "Thumbnail templates",
+        "Title and description templates",
+        "Publishing schedule"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-010",
+      "description": "Revenue tracking system",
+      "acceptanceCriteria": [
+        "Sales dashboard (Google Sheets or Notion)",
+        "Traffic source tracking",
+        "Conversion funnel metrics",
+        "Weekly review process"
       ],
       "passes": true
     }
