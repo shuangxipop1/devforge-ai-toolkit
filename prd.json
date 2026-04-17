@@ -2,58 +2,67 @@
   "stories": [
     {
       "id": "US-001",
-      "description": "Create DevForge AI Toolkit project structure",
+      "description": "Research: Identify proven digital product models for $1M+ revenue",
       "acceptanceCriteria": [
-        "Project directory structure created",
-        "package.json with correct metadata",
-        "README.md with product description",
-        "install.sh installer script"
+        "Document 5+ successful Gumroad/TemplatesCase studies with exact revenue",
+        "Identify target niche with buyer demand and low competition",
+        "Define minimum viable audience size needed",
+        "Price point analysis: what price ranges actually convert"
       ],
       "passes": true
     },
     {
       "id": "US-002",
-      "description": "Create 21 workflow templates across 6 categories",
+      "description": "Product Pivot: Convert to proven sellable format",
       "acceptanceCriteria": [
-        "4 code-gen templates (REST API, GraphQL, CRUD, Database Schema)",
-        "4 testing templates (Unit, Integration, E2E, Performance)",
-        "4 devops templates (CI/CD, Docker, Kubernetes, Monitoring)",
-        "3 security templates (Auth, Encryption, Vulnerability Scan)",
-        "3 refactor templates (Clean Code, Design Patterns, Migration)",
-        "3 docs templates (API Docs, README, Changelog)"
+        "Product solves specific, painful problem (not generic templates)",
+        "Price set at $19-49 (proven conversion range)",
+        "Platform: Gumroad (buyer trust, not direct ETH)",
+        "Freemium model: free basic tier + paid premium"
       ],
       "passes": true
     },
     {
       "id": "US-003",
-      "description": "Create 5 premium plugins",
+      "description": "Create High-Converting Landing Page",
       "acceptanceCriteria": [
-        "Autopilot Pro plugin with SKILL.md",
-        "Ralph Plus plugin with SKILL.md",
-        "Team Lead plugin with SKILL.md",
-        "Code Review AI plugin with SKILL.md",
-        "Debug Master plugin with SKILL.md"
+        "Hero with clear value proposition above fold",
+        "Social proof (real testimonials or trust signals)",
+        "Screenshots/videos showing the product in action",
+        "Clear CTA with urgency/scarcity"
       ],
       "passes": true
     },
     {
       "id": "US-004",
-      "description": "Create Landing Page with payment integration",
+      "description": "Set up Gumroad store with proper configuration",
       "acceptanceCriteria": [
-        "Landing page HTML with product showcase",
-        "Stripe payment integration setup",
-        "Pricing tiers clearly displayed",
-        "Crypto payment option for Ethereum address"
+        "Gumroad store created with professional branding",
+        "Product page with complete marketing copy",
+        "Email capture for buyers",
+        "Payment processor configured"
       ],
       "passes": true
     },
     {
       "id": "US-005",
-      "description": "Create GitHub repository and push",
+      "description": "Create Marketing Asset Package",
       "acceptanceCriteria": [
-        "GitHub repo created via API",
-        "Code pushed to main branch",
-        "README displays correctly on GitHub"
+        "Email sequence for new subscribers",
+        "Social media posts (Twitter, Reddit, HackerNews)",
+        "SEO-optimized blog post",
+        "Link in bio landing page"
+      ],
+      "passes": true
+    },
+    {
+      "id": "US-006",
+      "description": "Create Actionable Launch Plan",
+      "acceptanceCriteria": [
+        "Week 1-4 launch strategy with specific actions",
+        "Traffic source identification (where buyers are)",
+        "Outreach list for influencers/micro-bloggers",
+        "KPIs and tracking dashboard"
       ],
       "passes": true
     }
