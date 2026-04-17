@@ -2,122 +2,78 @@
   "stories": [
     {
       "id": "US-001",
-      "description": "Research: Proven $1M+ digital product models",
+      "description": "Research: Real human problems developers face",
       "acceptanceCriteria": [
-        "5+ Gumroad success cases with exact revenue documented",
-        "Price point analysis: $19-49 converts best",
-        "Platform choice: Gumroad > direct payment",
-        "Audience requirements identified"
+        "Identify top 5 fears (job security, obsolescence)",
+        "Identify top 5 frustrations (setup time, rate ceiling)",
+        "Identify emotional needs (peace of mind, confidence)",
+        "Map products to real pain points"
       ],
       "passes": true
     },
     {
       "id": "US-002",
-      "description": "Product A: AI Agent Starter Kit",
+      "description": "Product: AI Career Insurance",
       "acceptanceCriteria": [
-        "6 learning modules (Fundamentals to Deployment)",
-        "5 production agent templates",
-        "Architecture decision tree",
-        "$39 price point, Gumroad platform"
+        "Addresses fear of AI replacing jobs",
+        "Gives tangible proof of capability",
+        "8-week program with weekly milestones",
+        "$399 - outcome-focused"
       ],
       "passes": true
     },
     {
       "id": "US-003",
-      "description": "Product B: Engineering Manager OS",
+      "description": "Product: Freelancer's Guide to AI",
       "acceptanceCriteria": [
-        "Complete EM playbook in Notion template",
-        "Career transition guide (IC to EM)",
-        "Team management checklists",
-        "$29 price point"
+        "Addresses rate ceiling problem",
+        "Shows how to 10x output, not just hours",
+        "Pricing strategies (retainers vs hourly)",
+        "$197 - transformation focused"
       ],
       "passes": true
     },
     {
       "id": "US-004",
-      "description": "Product C: Developer Portfolio Template",
+      "description": "Product: Project Templates (15 Templates)",
       "acceptanceCriteria": [
-        "Notion portfolio template for devs",
-        "Job application tracking system",
-        "Interview preparation module",
-        "$19 price point"
+        "Solves setup time problem",
+        "12-30 hours saved per project",
+        "Deploy-ready, not just code snippets",
+        "$149 - practical value"
       ],
       "passes": true
     },
     {
       "id": "US-005",
-      "description": "Product D: CLI Tools Bundle",
+      "description": "Product: Sunday Ritual",
       "acceptanceCriteria": [
-        "5 useful CLI utilities",
-        "Install script for quick setup",
-        "Documentation for each tool",
-        "$49 price point"
+        "Addresses weekend anxiety",
+        "Peace of mind, not productivity",
+        "30-min weekly review system",
+        "$47 - emotional relief"
       ],
       "passes": true
     },
     {
       "id": "US-006",
-      "description": "Product E: Prompt Engineering Guide",
+      "description": "Product: AI Agent Mastermind",
       "acceptanceCriteria": [
-        "50+ proven prompts for developers",
-        "Categorized by use case",
-        "PDF + copy-paste ready",
-        "$19 price point"
+        "Community-based, not course",
+        "Founding members urgency",
+        "$497 founding, closes at 47 people",
+        "Live sessions, accountability"
       ],
       "passes": true
     },
     {
       "id": "US-007",
-      "description": "Product F: AI Agent Mastermind (Viral)",
-      "acceptanceCriteria": [
-        "Founding member urgency (limited spots)",
-        "High-ticket pricing ($497 founding)",
-        "Community-focused (not course)",
-        "FOMO elements (price increases, closes)"
-      ],
-      "passes": true
-    },
-    {
-      "id": "US-008",
-      "description": "Product G: 30-Day AI Agent Challenge",
-      "acceptanceCriteria": [
-        "Intensive challenge format",
-        "Accountability community",
-        "Clear 30-day milestones",
-        "$97 price point"
-      ],
-      "passes": true
-    },
-    {
-      "id": "US-009",
-      "description": "Product H: $100K Developer Masterclass",
-      "acceptanceCriteria": [
-        "Personal brand / mindset angle",
-        "Case study of transformation",
-        "High-ticket ($197)",
-        "Story-driven marketing"
-      ],
-      "passes": true
-    },
-    {
-      "id": "US-010",
-      "description": "Product I: Secret Arsenal (20 Agents)",
+      "description": "Product: Secret Arsenal (20 Agents)",
       "acceptanceCriteria": [
         "Done-for-you agents",
         "Proven money-makers",
-        "Package deal urgency ($297 first 100)",
-        "$297 price point"
-      ],
-      "passes": true
-    },
-    {
-      "id": "US-011",
-      "description": "Revenue tracking system",
-      "acceptanceCriteria": [
-        "Sales dashboard (Google Sheets or Notion)",
-        "Traffic source tracking",
-        "Conversion funnel metrics",
-        "Weekly review process"
+        "First 100 buyers pricing",
+        "$297 - package deal"
       ],
       "passes": true
     }
