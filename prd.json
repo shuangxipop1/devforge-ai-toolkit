@@ -2,78 +2,61 @@
   "stories": [
     {
       "id": "US-001",
-      "description": "Research: Real human problems developers face",
+      "description": "Product: AI Career Insurance - Masterpiece",
       "acceptanceCriteria": [
-        "Identify top 5 fears (job security, obsolescence)",
-        "Identify top 5 frustrations (setup time, rate ceiling)",
-        "Identify emotional needs (peace of mind, confidence)",
-        "Map products to real pain points"
+        "Deep psychological understanding of job security fears",
+        "8-week program with day-by-day structure",
+        "Real project portfolio outcomes",
+        "Testimonials from beta testers",
+        "Complete marketing page with emotional resonance"
       ],
       "passes": true
     },
     {
       "id": "US-002",
-      "description": "Product: AI Career Insurance",
+      "description": "Product: Two-Hour Dad Playbook - Masterpiece",
       "acceptanceCriteria": [
-        "Addresses fear of AI replacing jobs",
-        "Gives tangible proof of capability",
-        "8-week program with weekly milestones",
-        "$399 - outcome-focused"
+        "Authentic father experience, not theoretical advice",
+        "Age-specific frameworks (toddlers to teens)",
+        "Scripts and templates ready to use",
+        "Stories that hit emotionally",
+        "Actionable, not preachy"
       ],
       "passes": true
     },
     {
       "id": "US-003",
-      "description": "Product: Freelancer's Guide to AI",
+      "description": "Product: Tech Worker's Retirement Guide - Masterpiece",
       "acceptanceCriteria": [
-        "Addresses rate ceiling problem",
-        "Shows how to 10x output, not just hours",
-        "Pricing strategies (retainers vs hourly)",
-        "$197 - transformation focused"
+        "Real numbers, real spreadsheets",
+        "Stock/equity deep dive (RSUs, options, 83b)",
+        "Healthcare cost planning",
+        "Portfolio construction with actual funds",
+        "Interactive calculator included"
       ],
       "passes": true
     },
     {
       "id": "US-004",
-      "description": "Product: Project Templates (15 Templates)",
+      "description": "Product: Sunday Ritual - Masterpiece",
       "acceptanceCriteria": [
-        "Solves setup time problem",
-        "12-30 hours saved per project",
-        "Deploy-ready, not just code snippets",
-        "$149 - practical value"
+        "Simple enough to actually do",
+        "Emotional grounding, not productivity tips",
+        "Guided meditation/visualization component",
+        "Weekly review templates",
+        "The anxiety triage system"
       ],
       "passes": true
     },
     {
       "id": "US-005",
-      "description": "Product: Sunday Ritual",
+      "description": "Product: Freelancer's Guide to AI - Masterpiece",
       "acceptanceCriteria": [
-        "Addresses weekend anxiety",
-        "Peace of mind, not productivity",
-        "30-min weekly review system",
-        "$47 - emotional relief"
-      ],
-      "passes": true
-    },
-    {
-      "id": "US-006",
-      "description": "Product: AI Agent Mastermind",
-      "acceptanceCriteria": [
-        "Community-based, not course",
-        "Founding members urgency",
-        "$497 founding, closes at 47 people",
-        "Live sessions, accountability"
-      ],
-      "passes": true
-    },
-    {
-      "id": "US-007",
-      "description": "Product: Secret Arsenal (20 Agents)",
-      "acceptanceCriteria": [
-        "Done-for-you agents",
-        "Proven money-makers",
-        "First 100 buyers pricing",
-        "$297 - package deal"
+        "Real transformation stories",
+        "Outcome pricing frameworks",
+        "Client outreach templates that actually work",
+        "Systems for scaling without more hours",
+        "The retainer conversion playbook"
       ],
       "passes": true
     }
